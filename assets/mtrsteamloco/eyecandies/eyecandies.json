@@ -1,0 +1,931 @@
+{
+	"catenary_top_double_left": {
+		"name": "CF_catenary_top_double_left(龙门架双接触网-左侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_top_double_left.obj",
+		"flipV": true
+	},
+	"catenary_top_double_right": {
+		"name": "CF_catenary_top_double_right(龙门架双接触网-右侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_top_double_right.obj",
+		"flipV": true
+	},
+	"catenary_a": {
+		"name": "CF_catenary_nowirenote(无电线节点的 接触网支柱)",
+		"model": "mtrsteamloco:eyecandies/catenary_a.obj",
+		"flipV": true
+	},
+	"catenary_a_anti": {
+		"name": "CF_catenary_nowirenote_anti(无电线节点的 接触网支柱-反定位)",
+		"model": "mtrsteamloco:eyecandies/catenary_a_anti.obj",
+		"flipV": true
+	},
+	"catenary_d_l": {
+		"name": "CF_catenary_nowirenote_double-L(无电线节点的 双接触网支柱左侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_double_l_a.obj",
+		"flipV": true
+	},
+	"catenary_d_r": {
+		"name": "CF_catenary_nowirenote_double-R(无电线节点的 双接触网支柱右侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_double_r_a.obj",
+		"flipV": true
+	},
+	"catenary_circular": {
+		"name": "CF_catenary_round_pillar(圆柱接触网节点-正定位)",
+		"model": "mtrsteamloco:eyecandies/catenary_circular.obj",
+		"flipV": true
+	},
+	"catenary_circular_anti": {
+		"name": "CF_catenary_round_pillar_anti(圆柱接触网节点-反定位)",
+		"model": "mtrsteamloco:eyecandies/catenary_circular_anti.obj",
+		"flipV": true
+	},
+	"catenary_circular_45d": {
+		"name": "CF_catenary_round_pillar_45d(45°圆柱接触网节点-正定位)",
+		"model": "mtrsteamloco:eyecandies/45d_catenary_circular.obj",
+		"flipV": true
+	},
+	"catenary_circular_45d_a": {
+		"name": "CF_catenary_round_pillar_45d_anti(45°圆柱接触网节点-反定位)",
+		"model": "mtrsteamloco:eyecandies/45d_catenary_circular_anti.obj",
+		"flipV": true
+	},
+	"column": {
+		"name": "CE_column-3m(间隔3格的柱子)",
+		"model": "mtrsteamloco:eyecandies/column.obj",
+		"flipV": true
+	},
+	"column_2": {
+		"name": "CE_column-2m(间隔2格的柱子)",
+		"model": "mtrsteamloco:eyecandies/column_2.obj",
+		"flipV": true
+	},
+	"catenary_easy": {
+		"name": "CF_catenary_easy（简单接触网节点-正定位）",
+		"model": "mtrsteamloco:eyecandies/catenary_easy.obj",
+		"flipV": true
+	},
+	"catenary_easy_anti": {
+		"name": "CF_catenary_easy_anti（简单接触网节点-反定位）",
+		"model": "mtrsteamloco:eyecandies/catenary_easy1.obj",
+		"flipV": true
+	},
+	"switcher": {
+		"name": "CB_switcher(转辙器)",
+		"model": "mtrsteamloco:eyecandies/switcher.obj",
+		"textureId": "mtrsteamloco:textures/eyecandies/catenary_rack.png",
+		"flipV": true
+	},
+	"moretop_0": {
+		"name": "MT_moretop_ordinary（带吊索的硬横跨普通）",
+		"model": "mtrsteamloco:eyecandies/moretop_0.obj",
+		"flipV": true
+	},
+	"moretop_0_long": {
+		"name": "MT_moretop_ordinary_long（带吊索的硬横跨普通-长）",
+		"model": "mtrsteamloco:eyecandies/moretop_0_long.obj",
+		"flipV": true
+	},
+	"moretop_-1": {
+		"name": "MT_moretop_upper_strut_end_right（带吊索的硬横跨末端-右）",
+		"model": "mtrsteamloco:eyecandies/moretop_-1.obj",
+		"flipV": true
+	},
+	"moretop_-1_1": {
+		"name": "MT_moretop_upper_strut_end_left（带吊索的硬横跨末端-左）",
+		"model": "mtrsteamloco:eyecandies/moretop_-1_1.obj",
+		"flipV": true
+	},
+	"moretop_-2": {
+		"name": "MT_moretop_column_right（带吊索的硬横跨柱-右）",
+		"model": "mtrsteamloco:eyecandies/moretop_-2.obj",
+		"flipV": true
+	},
+	"moretop_-2_1": {
+		"name": "MT_moretop_column_left（带吊索的硬横跨柱-左）",
+		"model": "mtrsteamloco:eyecandies/moretop_-2_1.obj",
+		"flipV": true
+	},
+	"moretop_1": {
+		"name": "MT_moretop_catenary_A(带吊索的硬横跨节点A-右)",
+		"model": "mtrsteamloco:eyecandies/moretop_1.obj",
+		"flipV": true
+	},
+	"moretop_1_1": {
+		"name": "MT_moretop_catenary_A_anti(带吊索的硬横跨节点A-左)",
+		"model": "mtrsteamloco:eyecandies/moretop_1_1.obj",
+		"flipV": true
+	},
+	"moretop_B": {
+		"name": "MT_moretop_catenary_B_right(带吊索的硬横跨节点B-右)",
+		"model": "mtrsteamloco:eyecandies/moretop_3.obj",
+		"flipV": true
+	},
+	"moretop_B_1": {
+		"name": "MT_moretop_catenary_B_left(带吊索的硬横跨节点B-左)",
+		"model": "mtrsteamloco:eyecandies/moretop_3_1.obj",
+		"flipV": true
+	},
+	"moretop_2": {
+		"name": "MT_moretop_catenary_insulator(带吊索的硬横跨绝缘子)",
+		"model": "mtrsteamloco:eyecandies/moretop_2.obj",
+		"flipV": true
+	},
+	"moretop_expand-rigid": {
+		"name": "MT_moretop_expand-rigid(带吊索的硬横跨刚性接触网拓展)",
+		"model": "mtrsteamloco:eyecandies/moretop_expand-rigid.obj",
+		"flipV": true
+	},
+	"moretop_expand-rigid-l": {
+		"name": "MT_moretop_expand-rigid-left45°(带吊索的硬横跨刚性接触网拓展 左45°)",
+		"model": "mtrsteamloco:eyecandies/moretop_expand-rigid-l.obj",
+		"flipV": true
+	},
+	"moretop_expand-rigid-r": {
+		"name": "MT_moretop_expand-rigid-right45°(带吊索的硬横跨刚性接触网拓展 右45°)",
+		"model": "mtrsteamloco:eyecandies/moretop_expand-rigid-r.obj",
+		"flipV": true
+	},
+	"45d_moretop_0": {
+		"name": "MO_moretop_45d_ordinary（45°带吊索的硬横跨普通）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_0.obj",
+		"flipV": true
+	},
+	"45d_moretop_0_long": {
+		"name": "MO_moretop_45d_ordinary_long（45°带吊索的硬横跨普通-长）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_0_long.obj",
+		"flipV": true
+	},
+	"45d_moretop_-1": {
+		"name": "MO_moretop_45d_upper_strut_end_right（45°带吊索的硬横跨末端-右）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_-1.obj",
+		"flipV": true
+	},
+	"45d_moretop_-1_1": {
+		"name": "MO_moretop_45d_upper_strut_end_left（45°带吊索的硬横跨末端-左）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_-1_1.obj",
+		"flipV": true
+	},
+	"45d_moretop_-2": {
+		"name": "MO_moretop_45d_column_right（45°带吊索的硬横跨柱-右）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_-2.obj",
+		"flipV": true
+	},
+	"45d_moretop_-2_1": {
+		"name": "MO_moretop_45d_column_left（45°带吊索的硬横跨柱-左）",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_-2_1.obj",
+		"flipV": true
+	},
+	"45d_moretop_1": {
+		"name": "MO_moretop_45d_catenary_A(45°带吊索的硬横跨节点A-右)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_1.obj",
+		"flipV": true
+	},
+	"45d_moretop_1_1": {
+		"name": "MO_moretop_45d_catenary_A_anti(45°带吊索的硬横跨节点A-左)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_1_1.obj",
+		"flipV": true
+	},
+	"45d_moretop_B": {
+		"name": "MO_moretop_45d_catenary_B_right(45°带吊索的硬横跨节点B-右)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_3.obj",
+		"flipV": true
+	},
+	"45d_moretop_B_1": {
+		"name": "MO_moretop_45d_catenary_B_left(45°带吊索的硬横跨节点B-左)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_3_1.obj",
+		"flipV": true
+	},
+	"45d_moretop_2": {
+		"name": "MO_moretop_45d_catenary_insulator(45°带吊索的硬横跨绝缘子)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_2.obj",
+		"flipV": true
+	},
+	"45d_moretop_expand-rigid": {
+		"name": "MO_moretop_45d_expand-rigid(带吊索的硬横跨刚性接触网拓展)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_expand-rigid.obj",
+		"flipV": true
+	},
+	"45d_moretop_expand-rigid-l": {
+		"name": "MO_moretop_45d_expand-rigid-left45°(带吊索的硬横跨刚性接触网拓展 左45°)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_expand-rigid-l.obj",
+		"flipV": true
+	},
+	"45d_moretop_expand-rigid-r": {
+		"name": "MO_moretop_45d_expand-rigid-right45°(带吊索的硬横跨刚性接触网拓展 右45°)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_expand-rigid-r.obj",
+		"flipV": true
+	},
+	"catenary_end_00": {
+		"name": "CE_catenary_end_0°(接触网锚0度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_00.obj",
+		"flipV": true
+	},
+	"catenary_end_05": {
+		"name": "CE_catenary_end_5°(接触网锚5度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_05.obj",
+		"flipV": true
+	},
+	"catenary_end_10": {
+		"name": "CE_catenary_end_10°(接触网锚10度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_10.obj",
+		"flipV": true
+	},
+	"catenary_end_15": {
+		"name": "CE_catenary_end_15°(接触网锚15度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_15.obj",
+		"flipV": true
+	},
+	"catenary_end_20": {
+		"name": "CE_catenary_end_20°(接触网锚20度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_20.obj",
+		"flipV": true
+	},
+	"catenary_end_25": {
+		"name": "CE_catenary_end_25°(接触网锚25度)",
+		"model": "mtrsteamloco:eyecandies/catenary_end_25.obj",
+		"flipV": true
+	},
+	"compensator_pro": {
+		"name": "CE_compensator_pro（补偿器pro）",
+		"model": "mtrsteamloco:eyecandies/compensator_pro.obj",
+		"flipV": true
+	},
+	"compensator_pro_1.3": {
+		"name": "CE_compensator_pro_4/3（补偿器pro 坠砣*4/3）",
+		"model": "mtrsteamloco:eyecandies/compensator_pro_1.3.obj",
+		"flipV": true
+	},
+	"compensator_pro_0.6": {
+		"name": "CE_compensator_pro_2/3（补偿器pro 坠砣*2/3）",
+		"model": "mtrsteamloco:eyecandies/compensator_pro_0.6.obj",
+		"flipV": true
+	},
+	"compensator_pro_0.3": {
+		"name": "CE_compensator_pro_1/3（补偿器pro 坠砣*1/3）",
+		"model": "mtrsteamloco:eyecandies/compensator_pro_0.3.obj",
+		"flipV": true
+	},
+	"contact_net_door": {
+		"name": "CE_contact_net_door（接触网门）",
+		"model": "mtrsteamloco:eyecandies/contact_net_door.obj",
+		"flipV": true
+	},
+	"signal_lamp_r": {
+		"name": "SL_signal_lamp_red（信号灯 红）",
+		"model": "mtrsteamloco:eyecandies/signal_lamp_r.obj",
+		"flipV": true
+	},
+	"signal_lamp_g": {
+		"name": "SL_signal_lamp_green（信号灯 绿）",
+		"model": "mtrsteamloco:eyecandies/signal_lamp_g.obj",
+		"flipV": true
+	},
+	"signal_lamp_g_d": {
+		"name": "SL_signal_lamp_green_double（信号灯 绿-双向）",
+		"model": "mtrsteamloco:eyecandies/signal_lamp_g_d.obj",
+		"flipV": true
+	},
+	"signal_lamp_w": {
+		"name": "SL_signal_lamp_white（信号灯 白）",
+		"model": "mtrsteamloco:eyecandies/signal_lamp_w.obj",
+		"flipV": true
+	},
+	"signal_lamp_y": {
+		"name": "SL_signal_lamp_yellow（信号灯 黄）",
+		"model": "mtrsteamloco:eyecandies/signal_lamp_y.obj",
+		"flipV": true
+	},
+	"catenary_high_speed_rigid": {
+		"name": "RH_catenary_high-speed_rigid_node（高速刚性接触网节点）",
+		"model": "mtrsteamloco:eyecandies/catenary_high-speed_rigid.obj",
+		"flipV": true
+	},
+	"catenary_high_speed_rigid_long": {
+		"name": "RH_catenary_high-speed_rigid_node_long（高速刚性接触网节点-长）",
+		"model": "mtrsteamloco:eyecandies/catenary_high-speed_rigid_long.obj",
+		"flipV": true
+	},
+	"catenary_high_speed_rigid_short": {
+		"name": "RH_catenary_high-speed_rigid_node_short（高速刚性接触网节点-短）",
+		"model": "mtrsteamloco:eyecandies/catenary_high-speed_rigid_short.obj",
+		"flipV": true
+	},
+	"catenary_rigid": {
+		"name": "RO_catenary_rigid_node（刚性接触网节点）",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_node.obj",
+		"flipV": true
+	},
+	"catenary_rigid_cross_pair": {
+		"name": "RO_catenary_rigid_cross_pair（刚性接触网分项）",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_pair.obj",
+		"flipV": true
+	},
+	"catenary_rigid_gf": {
+		"name": "RH_catenary_rigid_gantry_frame（刚性接触网龙门架节点）",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_node_gf.obj",
+		"flipV": true
+	},
+	"45d_moretop_expandhrigid": {
+		"name": "MO_moretop_45d_expand-morerigid(45°*添加的接触网 带吊索的硬横跨刚性接触网拓展)",
+		"model": "mtrsteamloco:eyecandies/45d_moretop_expand-hrigid.obj",
+		"flipV": true
+	},
+	"moretop_expandhrigid": {
+		"name": "MT_moretop_expand-morerigid(*添加的接触网 带吊索的硬横跨刚性接触网拓展)",
+		"model": "mtrsteamloco:eyecandies/moretop_expand-hrigid.obj",
+		"flipV": true
+	},
+	"catenary_rigid_node_only": {
+		"name": "RO_catenary_rigid_node_only(刚性接触网节点单独)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_node_only.obj",
+		"flipV": true
+	},
+	"catenary_rigid_225d_line": {
+		"name": "RS_catenary_rigid_225d_line(22.5度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_225d_line.obj",
+		"flipV": true
+	},
+	"catenary_rigid_225d_h_node": {
+		"name": "RH_225d_high_node(22.5度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_225d_h_node.obj",
+		"flipV": true
+	},
+	"catenary_rigid_225d_hs_node": {
+		"name": "RH_225d_high_short_node(22.5度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_225d_hs_node.obj",
+		"flipV": true
+	},
+	"catenary_rigid_225d_p_node": {
+		"name": "RO_225d_node(22.5度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_225d_p_node.obj",
+		"flipV": true
+	},
+	"catenary_rigid_45d_line": {
+		"name": "RS_catenary_rigid_45d_line(45度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_225d_line.obj",
+		"flipV": true
+	},
+	"catenary_rigid_45d_h_node": {
+		"name": "RH_45d_high_node(45度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_45d_h.obj",
+		"flipV": true
+	},
+	"catenary_rigid_45d_hs_node": {
+		"name": "RH_45d_high_short_node(45度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_45d_hs.obj",
+		"flipV": true
+	},
+	"catenary_rigid_45d_p_node": {
+		"name": "RO_45d_node(45度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_45d_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_line": {
+		"name": "RS_catenary_rigid_0d_225d_line(0度-22.5度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_line.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_h_node": {
+		"name": "RH_0d_225d_high_node(0度-22.5度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_h.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_hs_node": {
+		"name": "RH_0d_225d_high_short_node(0度-22.5度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_hs.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_p_node": {
+		"name": "RO_0d_225d_node(0度-22.5度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_line": {
+		"name": "RS_catenary_rigid_0d_45d_line(0度-45度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_line.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_h_node": {
+		"name": "RH_0d_45d_high_node(0度-45度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_h.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_hs_node": {
+		"name": "RH_0d_45d_high_short_node(0度-45度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_hs.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_p_node": {
+		"name": "RO_0d_45d_node(0度-45度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_line_anti": {
+		"name": "RS_catenary_rigid_0d_-225d_line(0度-负22.5度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_line.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_h_node_anti": {
+		"name": "RH_0d_-225d_high_node(0度-负22.5度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_h.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_hs_node_anti": {
+		"name": "RH_0d_-225d_high_short_node(0度-负22.5度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_hs.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_225d_p_node_anti": {
+		"name": "RO_0d_-225d_node(0度-负22.5度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_225d_p.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_line_anti": {
+		"name": "RS_catenary_rigid_0d_-45d_line(0度-负45度交叉)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_line.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_h_node_anti": {
+		"name": "RH_0d_-45d_high_node(0度-负45度交叉高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_h.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_hs_node_anti": {
+		"name": "RH_0d_-45d_high_short_node(0度-负45度交叉短的高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_hs.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_0d_45d_p_node_anti": {
+		"name": "RO_0d_-45d_node(0度-负45度交叉节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_0d_45d_p.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_rigid_end_r_line": {
+		"name": "RS_catenary_rigid_end_r_line(刚性接触网右侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_h_r_node": {
+		"name": "RH_end_high_right_node(刚性接触网末端右侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_h_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_hs_r_node": {
+		"name": "RH_end_right_high_short_node(刚性接触网末端右侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_hs_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_p_r_node": {
+		"name": "RO_end_right_node(刚性接触网末端右侧节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_p_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_r_line": {
+		"name": "RS_catenary_rigid_end_r_line(刚性接触网右侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_h_r_node": {
+		"name": "RH_end_high_right_node(刚性接触网末端右侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_h_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_hs_r_node": {
+		"name": "RH_end_right_high_short_node(刚性接触网末端右侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_hs_r.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_p_l_node": {
+		"name": "RO_end_left_node(刚性接触网末端左侧节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_p_l.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_l_line": {
+		"name": "RS_catenary_rigid_end_l_line(刚性接触网左侧)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_l.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_h_l_node": {
+		"name": "RH_end_high_left_node(刚性接触网末端左侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_h_l.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_hs_l_node": {
+		"name": "RH_end_left_high_short_node(刚性接触网末端左侧高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_hs_l.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_p_l_node": {
+		"name": "RO_end_left_node(刚性接触网末端左侧节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_p_l.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_p_line": {
+		"name": "RS_catenary_rigid_end_pair_line(刚性接触网分相)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_pair.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_h_p_node": {
+		"name": "RH_end_high_pair_node(刚性接触网末端分相高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_h_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_hs_p_node": {
+		"name": "RH_end_left_high_pair_node(刚性接触网末端分相高速节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_hs_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_end_p_p_node": {
+		"name": "RO_end_pair_node(刚性接触网分相节点)",
+		"model": "mtrsteamloco:eyecandies/catenary_rigid_end_p_p.obj",
+		"flipV": true
+	},
+	"catenary_rigid_line_4": {
+		"name": "RS_line_4m(刚性接触网直线4m)",
+		"model": "mtrsteamloco:eyecandies/cprl_s4.obj",
+		"flipV": true
+	},
+	"soft_c1": {
+		"name": "SO_column(软横跨柱子)",
+		"model": "mtrsteamloco:eyecandies/soft_column.obj",
+		"flipV": true
+	},
+	"double_column": {
+		"name": "CF_catenary_double_column(接触网双支柱节点)",
+		"model": "mtrsteamloco:eyecandies/double_column.obj",
+		"flipV": true
+	},
+	"double_column_a": {
+		"name": "CF_catenary_double_column_anti(接触网双支柱节点-反定位)",
+		"model": "mtrsteamloco:eyecandies/double_column_anti.obj",
+		"flipV": true
+	},
+	"double_column_wire_node": {
+		"name": "CF_catenary_double_column_wire_node(接触网双支柱节点_电线节点)",
+		"model": "mtrsteamloco:eyecandies/double_column_wire_node.obj",
+		"flipV": true
+	},
+	"double_column_wire_node_a": {
+		"name": "CF_catenary_double_column_wire_node_anti(接触网双支柱节点_电线节点-反定位)",
+		"model": "mtrsteamloco:eyecandies/double_column_wire_node_anti.obj",
+		"flipV": true
+	},
+	"train_stopper": {
+		"name": "CF_train_stopper(车档)",
+		"model": "mtrsteamloco:eyecandies/train_stopper.obj",
+		"flipV": true
+	},
+	"aplon": {
+		"name": "FL_APL_shunt_signal_apl_on(APL 有灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/apl_on.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"aploff": {
+		"name": "FL_APL_shunt_signal_apl_off(APL 无灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/apl_off.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"gplon": {
+		"name": "FL_GPL_shunt_signal_gpl_on(GPL 有灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/gpl_on.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"gploff": {
+		"name": "FL_GPL_shunt_signal_gpl_off(GPL 无灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/gpl_off.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"lfson": {
+		"name": "FL_ESL_shunt_signal_lfs_on(LFS 有灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/lfs_on.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"lfsoff": {
+		"name": "FL_ESL_shunt_signal_lfs_off(LFS 无灯 英国分流信号机)",
+		"model": "mtrsteamloco:eyecandies/lfs_off.obj",
+		"scale": [ 0.5, 0.5, 0.5 ],
+		"flipV": true
+	},
+	"utcron": {
+		"name": "UT_uk_traffic_light_red_on(红灯亮灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_red_on.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utcroff": {
+		"name": "UT_uk_traffic_light_red_off(红灯灭灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_red_off.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utaon": {
+		"name": "UT_uk_traffic_light_amber_on(黄灯亮灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_amber_on.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utaoff": {
+		"name": "UT_uk_traffic_light_amber_off(黄灯灭灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_amber_off.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utgon": {
+		"name": "UT_uk_traffic_light_green_on(绿灯亮灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_green_on.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utgoff": {
+		"name": "UT_uk_traffic_light_green_off(绿灯灭灯-英国风交通灯)",
+		"model": "mtrsteamloco:eyecandies/tl_green_off.obj",
+		"scale": [ 0.7, 0.7, 0.7 ],
+		"flipV": true
+	},
+	"utcolumnfive": {
+		"name": "UT_column_5m(5米柱子)",
+		"model": "mtrsteamloco:eyecandies/column_5m.obj",
+		"flipV": true
+	},
+	"catenary_next_single_positive": {
+		"name": "CN_single_positive",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_positive.obj",
+		"flipV": true
+	},
+	"catenary_next_single_anti": {
+		"name": "CN_single_anti",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_anti.obj",
+		"flipV": true
+	},
+	"catenary_next_pillar1_2m": {
+		"name": "CN_pillar1_2m",
+		"model": "mtrsteamloco:eyecandies/catenary_next/pillar1.obj",
+		"flipV": true
+	},
+	"catenary_next_pillar1_3m": {
+		"name": "CN_pillar1_3m",
+		"model": "mtrsteamloco:eyecandies/catenary_next/pillar1.obj",
+		"translation": [ 0, 0, -1 ],
+		"flipV": true
+	},
+	"catenary_next_pillar1_center": {
+		"name": "CN_pillar1_center",
+		"model": "mtrsteamloco:eyecandies/catenary_next/pillar1_center.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry1_endpart_left": {
+		"name": "CN_gantry1_endpart_left",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry1_endpart.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry1_endpart_right": {
+		"name": "CN_gantry1_endpart_right",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry1_endpart.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry1_middlepart": {
+		"name": "CN_gantry1_middlepart",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry1_middlepart.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry1_splitpart": {
+		"name": "CN_gantry1_splitpart",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry1_splitpart.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_single_positive": {
+		"name": "CN_gantry_single_positive",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_single_positive.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_single_anti": {
+		"name": "CN_gantry_single_anti",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_single_anti.obj",
+		"flipV": true
+	},
+	"catenary_next_short_single_positive": {
+		"name": "CN_short_single_positive",
+		"model": "mtrsteamloco:eyecandies/catenary_next/short_single_positive.obj",
+		"flipV": true
+	},
+	"catenary_next_short_single_anti": {
+		"name": "CN_short_single_anti",
+		"model": "mtrsteamloco:eyecandies/catenary_next/short_single_anti.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_single_positive": {
+		"name": "CN_gantry_short_single_positive",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_single_positive.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_single_anti": {
+		"name": "CN_gantry_short_single_anti",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_single_anti.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_double_1": {
+		"name": "CN_gantry_double_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_1.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_double_1_mirror": {
+		"name": "CN_gantry_double_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_double_2": {
+		"name": "CN_gantry_double_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_2.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_double_2_mirror": {
+		"name": "CN_gantry_double_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_double_3": {
+		"name": "CN_gantry_double_3",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_3.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_double_3_mirror": {
+		"name": "CN_gantry_double_3_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_double_3.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_1": {
+		"name": "CN_gantry_short_double_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_1.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_1_mirror": {
+		"name": "CN_gantry_short_double_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_2": {
+		"name": "CN_gantry_short_double_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_2.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_2_mirror": {
+		"name": "CN_gantry_short_double_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_3": {
+		"name": "CN_gantry_short_double_3",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_3.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_double_3_mirror": {
+		"name": "CN_gantry_short_double_3_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_double_3.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_double_1": {
+		"name": "CN_single_double_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_1.obj",
+		"flipV": true
+	},
+	"catenary_next_single_double_1_mirror": {
+		"name": "CN_single_double_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_double_2": {
+		"name": "CN_single_double_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_2.obj",
+		"flipV": true
+	},
+	"catenary_next_single_double_2_mirror": {
+		"name": "CN_single_double_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_double_3": {
+		"name": "CN_single_double_3",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_3.obj",
+		"flipV": true
+	},
+	"catenary_next_single_double_3_mirror": {
+		"name": "CN_single_double_3_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_double_3.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_short_double_1": {
+		"name": "CN_single_short_double_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_1.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_double_1_mirror": {
+		"name": "CN_single_short_double_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_short_double_2": {
+		"name": "CN_single_short_double_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_2.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_double_2_mirror": {
+		"name": "CN_single_short_double_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_short_double_3": {
+		"name": "CN_single_short_double_3",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_3.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_double_3_mirror": {
+		"name": "CN_single_short_double_3_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_double_3.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_short_elevated_positive": {
+		"name": "CN_single_short_elevated_positive",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_elevated_positive.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_elevated_anti": {
+		"name": "CN_single_short_elevated_anti",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_elevated_anti.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_transition_1": {
+		"name": "CN_single_short_transition_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_transition_1.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_transition_1_mirror": {
+		"name": "CN_single_short_transition_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_transition_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_single_short_transition_2": {
+		"name": "CN_single_short_transition_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_transition_2.obj",
+		"flipV": true
+	},
+	"catenary_next_single_short_transition_2_mirror": {
+		"name": "CN_single_short_transition_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/single_short_transition_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_short_transition_1": {
+		"name": "CN_gantry_short_transition_1",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_transition_1.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_transition_1_mirror": {
+		"name": "CN_gantry_short_transition_1_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_transition_1.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_gantry_short_transition_2": {
+		"name": "CN_gantry_short_transition_2",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_transition_2.obj",
+		"flipV": true
+	},
+	"catenary_next_gantry_short_transition_2_mirror": {
+		"name": "CN_gantry_short_transition_2_mirror",
+		"model": "mtrsteamloco:eyecandies/catenary_next/gantry_short_transition_2.obj",
+		"mirror": [ true, false, false ],
+		"flipV": true
+	},
+	"catenary_next_pillar1_center_wire": {
+		"name": "CN_pillar1_center_wire",
+		"model": "mtrsteamloco:eyecandies/catenary_next/pillar1_center_wire.obj",
+		"flipV": true
+	}
+}

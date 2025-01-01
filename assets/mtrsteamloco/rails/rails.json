@@ -1,0 +1,56 @@
+{
+    "crl": {
+        "name": "CR-rigid_catenary_line",
+        "model": "mtrsteamloco:rails/crpl.obj",
+        "flipV": true
+    },
+    "rcr":{
+        "name":"CR-rigid_catenary_node_right",
+        "model":"mtrsteamloco:rails/rcr.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rcl":{
+        "name":"CR-rigid_catenary_node_left",
+        "model":"mtrsteamloco:rails/rcl.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rcr1":{
+        "name":"CR-rigid_catenary_node_long_right",
+        "model":"mtrsteamloco:rails/rcr1.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rcl1":{
+        "name":"CR-rigid_catenary_node_long_left",
+        "model":"mtrsteamloco:rails/rcl1.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rcr2":{
+        "name":"CR-rigid_catenary_node_short_right",
+        "model":"mtrsteamloco:rails/rcr2.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rcl2":{
+        "name":"CR-rigid_catenary_node_short_left",
+        "model":"mtrsteamloco:rails/rcl2.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "rco":{
+        "name":"CR-rigid_catenary_ordinary_node",
+        "model":"mtrsteamloco:rails/rco.obj",
+        "repeatInterval": 5.0,
+        "flipV": true
+    },
+    "pillar1_rail":{
+        "name":"pillar1_rail",
+        "model":"mtrsteamloco:eyecandies/catenary_next/pillar1_rail.obj",
+        "repeatInterval": 40.0,
+        "yOffset":0,
+        "flipV": true
+    }
+}
